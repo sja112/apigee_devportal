@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.using_the_api_view_mode
+label: 'Using the API View mode'
+targetEntityType: paragraph
+cache: true
