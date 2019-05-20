@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: tabbed_content_block
+label: 'Tabbed content block'
+revision: 0
+description: 'This block can be used to add code to customer and using the API section.'

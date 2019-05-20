@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.tabbed_content_block
+    - core.entity_view_mode.block_content.using_the_api_view_mode
+    - field.field.block_content.tabbed_content_block.body
+    - field.field.block_content.tabbed_content_block.field_tab_items
+  module:
+    - entity_reference_revisions
+    - text
+id: block_content.tabbed_content_block.using_the_api_view_mode
+targetEntityType: block_content
+bundle: tabbed_content_block
+mode: using_the_api_view_mode
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tab_items:
+    type: entity_reference_revisions_entity_view
+    weight: 1
+    label: hidden
+    settings:
+      view_mode: using_the_api_view_mode
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }
