@@ -1,1 +1,0 @@
-Srijan Devportal Theme is a sub theme of Classy.
