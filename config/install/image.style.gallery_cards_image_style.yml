@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: gallery_cards_image_style
+label: 'Gallery Cards image style (89X74)'
+effects:
+  8cd5978c-b99a-4780-af7f-9a5eded02a72:
+    uuid: 8cd5978c-b99a-4780-af7f-9a5eded02a72
+    id: image_scale
+    weight: 1
+    data:
+      width: 89
+      height: 74
+      upscale: false

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: gallery_cards_block
+label: 'Gallery Cards Block'
+revision: 0
+description: 'Block type to add cards with the gallery slideshow.'

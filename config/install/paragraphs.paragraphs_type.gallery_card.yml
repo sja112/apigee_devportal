@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: gallery_card
+label: 'Gallery card'
+icon_uuid: null
+description: 'This paragraph can be used to add gallery card.'
+behavior_plugins: {  }
