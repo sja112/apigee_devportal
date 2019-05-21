@@ -1,0 +1,57 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.gallery_cards_block
+    - field.storage.block_content.field_gallery_card
+    - paragraphs.paragraphs_type.gallery_card
+  module:
+    - entity_reference_revisions
+id: block_content.gallery_cards_block.field_gallery_card
+field_name: field_gallery_card
+entity_type: block_content
+bundle: gallery_cards_block
+label: 'Gallery card'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      gallery_card: gallery_card
+    target_bundles_drag_drop:
+      gallery_tile:
+        weight: 10
+        enabled: false
+      gallery_card:
+        enabled: true
+        weight: 11
+      product_api_parameters:
+        weight: 11
+        enabled: false
+      product_api_reference_section:
+        weight: 12
+        enabled: false
+      product_api_success_response:
+        weight: 13
+        enabled: false
+      product_details_main:
+        weight: 14
+        enabled: false
+      product_details_sub_topics:
+        weight: 15
+        enabled: false
+      social_icons:
+        weight: 16
+        enabled: false
+      sub_tab_item:
+        weight: 17
+        enabled: false
+      tab_item:
+        weight: 18
+        enabled: false
+field_type: entity_reference_revisions

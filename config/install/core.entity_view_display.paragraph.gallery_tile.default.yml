@@ -6,6 +6,7 @@ dependencies:
     - field.field.paragraph.gallery_tile.field_gallery_image
     - field.field.paragraph.gallery_tile.field_links
     - field.field.paragraph.gallery_tile.field_title
+    - image.style.gallery_cards_image_style
     - paragraphs.paragraphs_type.gallery_tile
   module:
     - image
@@ -17,24 +18,24 @@ bundle: gallery_tile
 mode: default
 content:
   field_description:
-    weight: 1
-    label: above
+    weight: 2
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
   field_gallery_image:
-    weight: 3
-    label: above
+    weight: 0
+    label: hidden
     settings:
-      image_style: ''
+      image_style: gallery_cards_image_style
       image_link: ''
     third_party_settings: {  }
     type: image
     region: content
   field_links:
-    weight: 2
-    label: above
+    weight: 3
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -45,8 +46,8 @@ content:
     type: link
     region: content
   field_title:
-    weight: 0
-    label: above
+    weight: 1
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string

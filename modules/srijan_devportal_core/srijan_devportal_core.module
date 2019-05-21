@@ -18,7 +18,9 @@ function srijan_devportal_core_entity_view(array &$build, EntityInterface $entit
   // Add an id attribute to each paragraph's default view mode so that you can
   // link to it from the table of contents.
   if ($entity->getEntityTypeId() === 'paragraph') {
-    $paragraph_title = $entity->field_title->first()->value;
+    if ($entity->hasField('field_title')) {
+      $paragraph_title = $entity->field_title->first()->value;
+    }
     // Convert paragraph title to its respective machine name.
     $machine_name = preg_replace('@[^a-z0-9-]+@', '-', mb_strtolower($paragraph_title));
 

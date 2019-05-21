@@ -1,5 +1,5 @@
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -7,7 +7,7 @@ dependencies:
     - srijan_devportal_theme
 id: srijan_devportal_theme_breadcrumbs
 theme: srijan_devportal_theme
-region: breadcrumb
+region: navigation
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

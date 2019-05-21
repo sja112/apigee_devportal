@@ -6,7 +6,7 @@ dependencies:
 id: srijan_devportal_theme_local_actions
 theme: srijan_devportal_theme
 region: content
-weight: -9
+weight: -10
 provider: null
 plugin: local_actions_block
 settings:
