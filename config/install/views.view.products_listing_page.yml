@@ -484,3 +484,60 @@ display:
       tags:
         - 'config:field.storage.node.body'
         - 'config:field.storage.node.field_featured_image'
+  product_listing:
+    display_plugin: block
+    id: product_listing
+    display_title: Block
+    position: 2
+    display_options:
+      display_extenders: {  }
+      pager:
+        type: some
+        options:
+          items_per_page: 3
+          offset: 0
+      defaults:
+        pager: false
+        footer: false
+        header: false
+        title: false
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<a href=[view:url]>View All API Products</a>'
+            format: full_html
+          plugin_id: text
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: 'Our API Products let you use approved customer data to create or enhance your digital products.'
+            format: full_html
+          plugin_id: text
+      title: 'API Products'
+      block_description: 'Product Listing Block'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.body'
+        - 'config:field.storage.node.field_featured_image'

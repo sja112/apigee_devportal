@@ -9,7 +9,7 @@ dependencies:
 id: newsletter_subscription_block
 theme: srijan_devportal_theme
 region: content
-weight: -3
+weight: -2
 provider: null
 plugin: simplenews_subscription_block
 settings:
