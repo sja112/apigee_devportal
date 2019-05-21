@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: blog_listing_block_image_style
+label: 'Blog listing block image style (125X125)'
+effects:
+  d23dd05f-ff7e-4b0b-a3ee-bbe0d6f141f6:
+    uuid: d23dd05f-ff7e-4b0b-a3ee-bbe0d6f141f6
+    id: image_scale
+    weight: 1
+    data:
+      width: 125
+      height: 125
+      upscale: false

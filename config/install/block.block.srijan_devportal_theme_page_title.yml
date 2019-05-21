@@ -6,7 +6,7 @@ dependencies:
 id: srijan_devportal_theme_page_title
 theme: srijan_devportal_theme
 region: content
-weight: -50
+weight: -12
 provider: null
 plugin: page_title_block
 settings:
