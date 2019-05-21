@@ -1,0 +1,87 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/file\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/undefined"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/undefined\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "fid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "95cd1a8e-c23a-472b-996d-4fab38d321d7"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/undefined\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "21c7a3e9-c7ce-4c9d-bd24-ce3d92054a76"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "Recog Ovw.png"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/resources\/files\/Recog Ovw.png",
+            "url": "\/profiles\/contrib\/srijan_devportal\/resources\/files\/Recog%20Ovw.png"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "image\/png"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 14398
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2019-05-21T10:55:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2019-05-21T10:55:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

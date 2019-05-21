@@ -11,6 +11,7 @@ default_content:
   file:
     - 0e312c02-ed9f-4c9e-a582-2760321d8610
     - 649b4cf9-f998-448d-a1b8-39475ed61e8d
+    - 95cd1a8e-c23a-472b-996d-4fab38d321d7
   menu_link_content:
     - 3d3821fe-47ce-48d3-bfe2-dab0ef3ecae7
     - 3dbdddc5-e56b-4d52-ba56-e1e07bc9541b
@@ -34,6 +35,7 @@ default_content:
     - ff6962dc-4658-4378-b6a8-b60ed9e670ef
   node:
     - 8af2604d-e56d-497b-b8a9-66a3a85c500a
+    - 20d020bd-ca4e-438f-93fe-94a32f1b4083
   taxonomy_term:
     - 18fd04fd-9d8b-4519-8612-4d236375e401
   block_content:
