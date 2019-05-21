@@ -1,0 +1,8 @@
+uuid: bba2740b-b670-44e2-8476-ba21d68c4f45
+langcode: en
+status: true
+dependencies: {  }
+id: our-api-s
+label: 'Our API''s'
+description: 'Footer sub menu for our api'
+locked: false

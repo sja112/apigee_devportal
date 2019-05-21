@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_block
+    - field.field.block_content.social_block.field_social_links
+  module:
+    - entity_reference_revisions
+id: block_content.social_block.default
+targetEntityType: block_content
+bundle: social_block
+mode: default
+content:
+  field_social_links:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+hidden: {  }

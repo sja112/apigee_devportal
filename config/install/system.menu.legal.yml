@@ -1,0 +1,8 @@
+uuid: 3fa641a6-aae6-469e-92fa-a22d957b0843
+langcode: en
+status: true
+dependencies: {  }
+id: legal
+label: Legal
+description: 'Footer sub menu for legal'
+locked: false

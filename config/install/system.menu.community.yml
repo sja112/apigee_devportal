@@ -1,0 +1,8 @@
+uuid: b771d8b7-3c5a-48d1-9b46-bd95c0353bb5
+langcode: en
+status: true
+dependencies: {  }
+id: community
+label: Community
+description: 'Footer sub menu for community'
+locked: false

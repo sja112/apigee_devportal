@@ -6,3 +6,26 @@ distribution:
   name: Srijan Devportal
 dependencies:
   - default_content
+
+default_content:
+  menu_link_content:
+    - 3d3821fe-47ce-48d3-bfe2-dab0ef3ecae7
+    - 3dbdddc5-e56b-4d52-ba56-e1e07bc9541b
+    - 3e95bab9-df09-48f6-aa1f-3faab7665d50
+    - 6b339990-baa6-4ed0-bbdc-5d8aa8326995
+    - 8b4fb097-d8a3-4ebc-a0f3-759f4a297d8a
+    - 25f65164-04bd-4852-a35e-68a37584277d
+    - 85f4dcbb-7eee-47d6-8dd8-0cea9bbf1369
+    - 803bcf3c-b9cb-45f0-9afa-6ab28ae5d5f1
+    - 28190832-d56c-4185-8a73-6c1de243b614
+    - b0acded6-b769-4b93-bbc0-29e816eaf605
+    - c0662f83-4b40-4d02-8674-0a7b505551a9
+    - c05683e0-8052-493d-bf7a-c35e6f441637
+    - ca248919-1260-4f9c-8628-9e10f8c34dd7
+    - cc491169-4993-4db8-a869-ed2133564314
+    - e4eb0d1a-52e1-429e-9151-c853b74466a8
+    - e998f47b-776c-483f-853a-033f5c626b60
+    - f749fca8-19f9-4405-a55b-58784f02f7c0
+    - f4804de8-3f6e-422b-9e3f-7e1a063d2446
+    - fb11b681-33cd-43af-99ba-6b61f91ab581
+    - ff6962dc-4658-4378-b6a8-b60ed9e670ef

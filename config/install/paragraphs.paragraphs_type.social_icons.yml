@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: social_icons
+label: 'Social Icons'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

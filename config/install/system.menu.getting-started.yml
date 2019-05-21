@@ -1,0 +1,8 @@
+uuid: e4efd657-445e-4122-b444-83695e792a2f
+langcode: en
+status: true
+dependencies: {  }
+id: getting-started
+label: 'Getting started'
+description: 'Footer sub menu for getting started'
+locked: false
