@@ -6,8 +6,11 @@ distribution:
   name: Srijan Devportal
 dependencies:
   - default_content
+  - file_entity
 
 default_content:
+  file:
+    - 0e312c02-ed9f-4c9e-a582-2760321d8610
   menu_link_content:
     - 3d3821fe-47ce-48d3-bfe2-dab0ef3ecae7
     - 3dbdddc5-e56b-4d52-ba56-e1e07bc9541b
@@ -29,3 +32,7 @@ default_content:
     - f4804de8-3f6e-422b-9e3f-7e1a063d2446
     - fb11b681-33cd-43af-99ba-6b61f91ab581
     - ff6962dc-4658-4378-b6a8-b60ed9e670ef
+  node:
+    - 8af2604d-e56d-497b-b8a9-66a3a85c500a
+  taxonomy_term:
+    - 18fd04fd-9d8b-4519-8612-4d236375e401
