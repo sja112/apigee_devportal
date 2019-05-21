@@ -2,28 +2,28 @@ langcode: en
 status: true
 dependencies:
   config:
-    - views.view.success_story_block
+    - views.view.blog_listing_block
   module:
     - system
     - views
   theme:
     - srijan_devportal_theme
-id: views_block__success_story_block
+id: views_block__blog_listing_block
 theme: srijan_devportal_theme
 region: content
-weight: -7
+weight: -5
 provider: null
-plugin: 'views_block:success_story_block-block_1'
+plugin: 'views_block:blog_listing_block-blog_listing_block'
 settings:
-  id: 'views_block:success_story_block-block_1'
-  label: ''
+  id: 'views_block:blog_listing_block-blog_listing_block'
+  label: 'Developers Blog'
   provider: views
-  label_display: '0'
-  views_label: ''
+  label_display: visible
+  views_label: 'Developers Blog'
   items_per_page: none
 visibility:
   request_path:
     id: request_path
-    pages: '<front>'
+    pages: "<front>\r\n/user/1"
     negate: false
     context_mapping: {  }

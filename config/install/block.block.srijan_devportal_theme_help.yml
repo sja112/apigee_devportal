@@ -8,7 +8,7 @@ dependencies:
 id: srijan_devportal_theme_help
 theme: srijan_devportal_theme
 region: content
-weight: -30
+weight: -10
 provider: null
 plugin: help_block
 settings:

@@ -6,7 +6,7 @@ dependencies:
 id: srijan_devportal_theme_local_tasks
 theme: srijan_devportal_theme
 region: content
-weight: -40
+weight: -11
 provider: null
 plugin: local_tasks_block
 settings:

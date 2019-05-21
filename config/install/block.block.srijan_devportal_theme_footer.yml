@@ -10,7 +10,7 @@ dependencies:
 id: srijan_devportal_theme_footer
 theme: srijan_devportal_theme
 region: sidebar_first
-weight: 0
+weight: -11
 provider: null
 plugin: 'system_menu_block:footer'
 settings:

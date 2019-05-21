@@ -10,7 +10,7 @@ dependencies:
 id: srijan_devportal_theme_account_menu
 theme: srijan_devportal_theme
 region: secondary_menu
-weight: 0
+weight: -12
 provider: null
 plugin: 'system_menu_block:account'
 settings:
