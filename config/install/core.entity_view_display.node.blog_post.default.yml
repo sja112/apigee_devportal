@@ -1,6 +1,13 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_display.comment.comment.default
+    - field.field.node.blog_post.body
+    - field.field.node.blog_post.field_blog_comments
+    - field.field.node.blog_post.field_blog_tags
+    - field.field.node.blog_post.field_featured_image
+    - node.type.blog_post
   module:
     - comment
     - image
@@ -25,7 +32,7 @@ content:
       pager_id: 0
       view_mode: default
     third_party_settings: {  }
-    label: above
+    label: hidden
     region: content
   field_blog_tags:
     type: entity_reference_label
@@ -33,11 +40,11 @@ content:
     settings:
       link: true
     third_party_settings: {  }
-    label: above
+    label: hidden
     region: content
   field_featured_image:
     weight: 1
-    label: above
+    label: hidden
     settings:
       image_style: ''
       image_link: ''
