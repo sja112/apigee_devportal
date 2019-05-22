@@ -7,14 +7,14 @@ description: 'Srijan Devportal theme, specially for srijan devportal profile.'
 package: 'Bootstrap'
 
 regions:
+  header: 'Header'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Top Bar'
   highlighted: 'Highlighted'
   help: 'Help'
   content: 'Content'
-  sidebar_first: 'Primary'
-  sidebar_second: 'Secondary'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
   footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
@@ -22,3 +22,4 @@ regions:
 libraries:
   - srijan_devportal_theme/framework
 
+logo: logo.png
