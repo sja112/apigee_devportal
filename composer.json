@@ -26,7 +26,14 @@
     "drupal/paragraphs": "^1.8",
     "drupal/simplenews": "^1.0@beta",
     "drupal/twitter_block": "^3.0",
-    "drupal/views_slideshow": "^4.6"
+    "drupal/views_slideshow": "^4.6",
+    "drupal/social_api" : "^2.0@beta",
+    "drupal/social_auth": "^2.0@beta",
+    "drupal/social_auth_google" : "^2.0@beta",
+    "drupal/social_auth_facebook" : "^2.0@beta",
+    "drupal/social_auth_linkedin" : "^2.0@beta",
+    "drupal/social_auth_github" : "^2.0@beta",
+    "drupal/block_class" : "^1.0"
   },
   "require-dev": {
     "drush/drush": "~9",

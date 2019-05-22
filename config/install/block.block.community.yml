@@ -17,7 +17,7 @@ settings:
   id: 'system_menu_block:community'
   label: Community
   provider: system
-  label_display: '0'
+  label_display: visible
   level: 1
   depth: 0
   expand_all_items: false
