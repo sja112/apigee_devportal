@@ -16,8 +16,8 @@ regions:
   sidebar_first: 'Sidebar First'
   sidebar_second: 'Sidebar Second'
   footer: 'Footer'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
+  page_top: 'Page Top'
+  page_bottom: 'Page Bottom'
 
 libraries:
   - srijan_devportal_theme/framework
