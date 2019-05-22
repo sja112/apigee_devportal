@@ -1,8 +1,13 @@
 framework:
   css:
-    theme:
-      css/style.css: {}
+    fonts:
       '//fonts.googleapis.com/css?family=Poppins:300,400,600,700,800': { external: true }
+    
+    components:
+      css/components/taxonomy.css: {}
+      css/components/well.css: {}
+      css/components/header.css: {}
+      css/components/footer.css: {}
 
   js:
    js/script.js: {}
