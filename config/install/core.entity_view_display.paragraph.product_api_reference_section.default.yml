@@ -12,7 +12,6 @@ dependencies:
   module:
     - entity_reference_revisions
     - link
-    - options
 id: paragraph.product_api_reference_section.default
 targetEntityType: paragraph
 bundle: product_api_reference_section
@@ -60,9 +59,10 @@ content:
   field_api_type:
     weight: 1
     label: hidden
-    settings: {  }
+    settings:
+      link: true
     third_party_settings: {  }
-    type: list_default
+    type: entity_reference_label
     region: content
   field_title:
     weight: 0

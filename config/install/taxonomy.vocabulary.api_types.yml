@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+name: 'API types'
+vid: api_types
+description: 'API types vocabulary'
+weight: 0
